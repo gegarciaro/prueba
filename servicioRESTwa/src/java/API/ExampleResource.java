@@ -123,6 +123,7 @@ public class ExampleResource {
 	public Data update(@PathParam("id") int id, String datos) {
 		System.out.println("Lllego a put con id " + id + " y datos: " + datos);
 		LOG.info("todo out debe de ser un logger");
+		//comentario
 		Data data = new Data(1, "one");
 		data.setValue(id);
 		if (id == 1 || id == 2) {
