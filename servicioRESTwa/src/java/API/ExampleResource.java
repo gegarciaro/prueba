@@ -124,6 +124,9 @@ public class ExampleResource {
 		System.out.println("Lllego a put con id " + id + " y datos: " + datos);
 		LOG.info("todo out debe de ser un logger");
 		//comentario
+		
+		
+		//empiezo versión 1.1
 		Data data = new Data(1, "one");
 		data.setValue(id);
 		if (id == 1 || id == 2) {
